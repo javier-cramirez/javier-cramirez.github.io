@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I'm a current first-year at Arizona State University studying computer science. 
+My current interests are stochastic processes and Fourier series! 
+Hopefully I'll post some blogs soon...
