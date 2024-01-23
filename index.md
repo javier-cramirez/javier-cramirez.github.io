@@ -1,3 +1,4 @@
 I'm a current first-year at Arizona State University studying computer science. 
 My current interests are stochastic processes and Fourier series! 
 Hopefully I'll post some blogs soon...
+$$KS$$
