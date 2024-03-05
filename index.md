@@ -4,4 +4,3 @@ Hopefully I'll post some blogs soon...
 ![Book logo](6efdbcfe48c190a39b26446c36cd18bd.png)
 
 
-$$KS$$
