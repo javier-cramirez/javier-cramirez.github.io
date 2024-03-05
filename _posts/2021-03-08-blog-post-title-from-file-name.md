@@ -1,4 +1,18 @@
-## poem
+
+<style>
+    pre {
+    	overflow-x: auto;
+    }
+    .note-wrapper {
+        text-align: left;
+    }
+    td {
+        text-align: center;
+    }
+    li {
+        margin-bottom: 10px
+    }
+</style>
 
 Stare. All I have to do is stare. 
 Every little word, a sapling pharynx would never know it’s there. 
