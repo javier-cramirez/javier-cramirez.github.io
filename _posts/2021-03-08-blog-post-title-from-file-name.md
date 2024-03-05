@@ -1,17 +1,9 @@
+**Poem
 
 <style>
-    pre {
-    	overflow-x: auto;
-    }
-    .note-wrapper {
-        text-align: left;
-    }
-    td {
-        text-align: center;
-    }
-    li {
-        margin-bottom: 10px
-    }
+    body {
+    font-family: "Roboto Mono", monospace;
+}
 </style>
 
 Stare. All I have to do is stare. 
