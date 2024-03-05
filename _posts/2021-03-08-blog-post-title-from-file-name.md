@@ -1,32 +1,17 @@
-## Blog Post Title From First Header
+## poem
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
-
-If the file does not start with a header, then the post title will be derived from the filename.
-
-This is a sample blog post. You can talk about all sorts of fun things here.
-
----
-
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+Stare. All I have to do is stare. 
+Every little word, a sapling pharynx would never know it’s there. 
+Cut it from my view, it’s not so often you’ll see me blue.
+Coal to coal and flesh by flesh.
+My empty soles no longer come to mesh.
+A forever song, to keep me tight.
+That’s all she’ll ever need to see, thus right. 
+One kiss goodnight, till tomorrow.
+Like my good climb up.
+A good struggle to keep the World ripe. 
+Lure me in with your special secret.
+Tremble, I tremble.
+You, as my witness.
+Never again will I fight.
+Struggle. Only you can do it right.
