@@ -33,7 +33,7 @@ Hopefully I'll post some blogs soon...
   <br>
   I am referring to the Weierstrass Approximation Theorem, which (very informally) states that every continuous function on a closed interval is *almost* a polynomial. This seemingly harmless theorem has paved the way for many fields involving computational mathematics. Approximation is king, however not every function is approximated equally. Take, for example, the Runge Phenomenon. This is a classic example where vanilla polynomial interpolation *simply fails*. At small degrees, our approximation is going nice, like a drive up Sedona. Unfortunately, as we increase the degree of our polynomials, the error grows without bound (wild oscillations occur near the endpoints). I leave you with the following illustration: 
   <br>
-  ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+  ![Alt Text](runge-uniform.gif)
   
   
   
