@@ -23,7 +23,6 @@ Hopefully I'll post some blogs soon...
   The Lagrange basis function 
   <br>
   $$\displaystyle L_{i}(x)=\prod^{N}_{j=1,i\neq j}\frac{x-x_{j}}{x_{i}-x_{j}}$$
-  <br>
   This bad boy follows from the following result:
   <br>
   Suppose we have  $f:[a,b]\rightarrow\mathbb{R}$ and $x_{1} < \dots < x_{n} \in [a,b]$. Then, there exists a unique polynomial, $p(x)$, with degree no greater than $n-1$ that interpolates $f$ at points $x_{1},\dots , x_{n}$. This interpolating polynomial can be expressed as:
