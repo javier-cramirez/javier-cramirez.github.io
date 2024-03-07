@@ -13,7 +13,7 @@ Hopefully I'll post some blogs soon...
   <br>
   This bad boy follows from the following result:
   <br>
-  Suppose we have  '''math f:[a,b]\rightarrow\mathbb{R}''' and '''math x_{1} < \dots < x_{n} \in [a,b]'''                  
+  Suppose we have  ```math f:[a,b]\rightarrow\mathbb{R}``` and ```math x_{1} < \dots < x_{n} \in [a,b]```
 </p>
 
 
