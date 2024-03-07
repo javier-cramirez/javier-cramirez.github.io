@@ -7,9 +7,10 @@ Hopefully I'll post some blogs soon...
 
 <p align="center"><u>Formula of the Month:</u></p>
 <p align="center">
-  The Lagrange basis function
+  The Lagrange basis function 
+  <br>
+  $$\displaystyle L_{i}(x)=\prod^{N}_{j=1,i\neq j}\frac{x-x_{j}}{x_{i}-x_{j}}$$
 </p>
-$$\displaystyle L_{i}(x)=\prod^{N}_{j=1,i\neq j}\frac{x-x_{j}}{x_{i}-x_{j}}$$
 
 
 
