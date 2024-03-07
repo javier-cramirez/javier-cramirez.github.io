@@ -9,9 +9,9 @@ Hopefully I'll post some blogs soon...
 <p align="center">
   The Lagrange basis function:
 </p>
-$\begin{align} 
+$
     L_{i}(x)=\prod^{N}_{j=1,i\neq j}\frac{x-x_{j}}{x_{i}-x_{j}}
-\end{align}$
+$
 
 
 
