@@ -29,7 +29,7 @@ Hopefully I'll post some blogs soon...
   <br>
   $$\displaystyle p(x)=\sum^{N}_{j=1}f(x_{j})L_{j}(x)$$ 
   Expanding this formula, we can see that:
-  $$\displaystyle L_{i](x)=\frac{(x-x_{0})(x-x_{1})\dots (x-x_{N})}{(x_{i}-x_{0})(x_{i}-x_{1})\dots (x_{i}-x_{N}))$$
+  $$\displaystyle L_{i](x)=\frac{(x-x_{0})(x-x_{1})\dots (x-x_{N})}{(x_{i}-x_{0})(x_{i}-x_{1})\dots (x_{i}-x_{N})}$$
   
   
 </p>
