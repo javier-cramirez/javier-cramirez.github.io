@@ -5,7 +5,7 @@ My current interests are stochastic processes and diffusion models.
 Hopefully I'll post some blogs soon... 
 ![Book logo](IMG_4777.JPG)
 
-# <p align='center'><sub>Formula of the Month:</sub></p>
+# <p align="center"><sub>Formula of the Month:</sub></p>
 
 
 
