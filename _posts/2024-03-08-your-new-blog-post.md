@@ -22,7 +22,8 @@ $$\displaystyle p(z|x;\theta)=\frac{p(x|z;\theta)p(z;\theta)}{p(x;\theta)}$$
 
 <p> Which just reinforces that the posterior is proportional to the likelihood times the prior. Note that $p(x;\theta)=\int p(x|z;\theta)p(z;\theta) \, dz$ is the evidence, which can bear a very high dimensionality (might be intractable). This is *no bueno* and is the source of many headaches, but also some cool algorithms. </p>
 
-<p>Variational inference seeks to give better approximations when our posterior density is not so tractable. </p>
+> <p>Variational inference seeks to give better approximations when our posterior density is not so tractable. </p>
+
 <p>Let me make your life worse by presenting a set of local variational parameters $\phi_{i}$ which belong to $q(z|x_{i};\phi_{i})$. This pretty much says that the latent distribution of vector $z$ (given $i$ observations) is equipped by local parameters. Now, given that we have global parameters $\theta$, we could possibly update each $\phi_{i}$ upon each successive observation. As we update, we can get closer and closer to our global $\theta$. More on this later.</p>
 
 <p>One of the central approaches to tackling this optimization problem is through the Kullback-Leibler (KL) divergence. Horribly informalized, it is the measure between our approximating distribution $q(z)$ and the true density $p(z)$. Now, we have the objective function:</p>
