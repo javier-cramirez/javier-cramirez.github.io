@@ -52,4 +52,6 @@ $$\displaystyle q(z_{1},\dots,z_{N})=\prod^{N}_{k=1}q(z_{k})$$
 
 by partitioning elements of $z$ into disjoint groupings $z_{k}$.
 
+![alttext](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.enworld.org%2Fmedia%2Fpeanut-butter-jelly-time-banana-gif.95112%2F&psig=AOvVaw0E98xwjOWrSoERm9CayGkU&ust=1710053807707000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCkk4DN5oQDFQAAAAAdAAAAABAE)
+
 
