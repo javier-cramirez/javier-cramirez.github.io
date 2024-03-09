@@ -1,5 +1,20 @@
 ## Variational Inference: First Principles
-From Bayes' theorem, we set up the problem: 
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<style> body { font-family: "Roboto Mono", monospace; } </style>
+
+<p align='center'>From Bayes' theorem, we set up the problem: 
 
 $p(z|x;\theta)=\frac{p(x|z;\theta)p(z;\theta)}{p(x;\theta)}$
 
@@ -24,5 +39,6 @@ The mean field approximation assumes that our variational posterior is fully fac
 $\displaystyle q(z_{1},\dots,z_{N})=\prod^{N}_{k=1}q(z_{k})$
 
 by partitioning elements of $z$ into disjoint groupings $z_{k}$.
+</p>
 
 
