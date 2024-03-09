@@ -16,7 +16,7 @@ MathJax = {
 
 <p align='center'><img src='https://64.media.tumblr.com/122cb8fcdabd68832c61b62a403bf49c/9eb1947e2ed393cf-ee/s540x810/06c37a959200146a91c2799c5175f6a9956276ae.jpg'></p>
 
-&nbsp; <p>In Bayesian statistics, we are often interested in making an inference about data based on what we already have. Equivalently, it is the posterior distribution (which composes an uncertainty about yet-to-be observed variables) which is our topic of study.</p>
+<p>&nbsp; In Bayesian statistics, we are often interested in making an inference about data based on what we already have. Equivalently, it is the posterior distribution (which composes an uncertainty about yet-to-be observed variables) which is our topic of study.</p>
 
 <p>From Bayes' theorem, we set up the problem: </p>
 
