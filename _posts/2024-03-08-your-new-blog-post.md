@@ -43,7 +43,7 @@ $$\displaystyle
 =\sum^{N}_{i=1}\mathbb{E}_{q}\left[\log q(z|x_{i};\phi_{i})-\log\frac{p(x_{i},z;\theta)}{p(x_{i};\theta)}\right]
 \\
 =\sum^{N}_{i=1}\mathbb{E}_{q}\left[\log q(z|x_{i};\phi_{i})-\log p(x_{i},z;\theta)]+\sum^{N}_{i=1}\mathbb{E}_{q}[\log p(x_{i};\theta)\right]
-
+\\
 \end{align}$$
 
 <p>The mean field approximation assumes that our variational posterior is fully factorizable</p>
