@@ -36,9 +36,10 @@ Hopefully I'll post some blogs soon...
     Take, for example, the Runge Phenomenon. This is a classic example where vanilla polynomial interpolation *simply fails*. At small degrees, our approximation is going nice, like a drive up Sedona. Unfortunately, as we increase the degree of our polynomials, the error grows without bound (wild oscillations occur near the endpoints). I leave you with the following illustration: 
 </p>
     
-![Alt Text](https://www.mscroggs.co.uk/img/full/runge-uniform.gif)
+<p align='center'><img src='https://www.mscroggs.co.uk/img/full/runge-uniform.gif'></p>
+<br>
     
-  (credit to [Matthew Scroggs](www.mscroggs.co.uk))
+<p align='center'>(credit to [Matthew Scroggs](www.mscroggs.co.uk))</p>
 
 
 
