@@ -27,7 +27,8 @@ Variational inference seeks to give better approximations when our posterior den
 <p>One of the central approaches to tackling this optimization problem is through the Kullback-Leibler (KL) divergence. Horribly informalized, it is the measure between our approximating distribution $q(z)$ and the true density $p(z)$. Now, we have the objective function:
 </p>
 
-$$\mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_{i};\theta))$$
+$$\displaystyle \mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_{i};\theta))$$
+
 <p>where $D_{KL}=\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)]$</p>
 <br>
 <p>Which is just the expectation w.r.t. $q$ of the difference between the log densities.
