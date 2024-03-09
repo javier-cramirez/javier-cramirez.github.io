@@ -16,9 +16,9 @@ MathJax = {
 
 <p>From Bayes' theorem, we set up the problem: </p>
 <br>
-$p(z|x;\theta)=\frac{p(x|z;\theta)p(z;\theta)}{p(x;\theta)}$
+$$p(z|x;\theta)=\frac{p(x|z;\theta)p(z;\theta)}{p(x;\theta)}$$
 <br>
-<p> Which just reinforces that the posterior is proportional to the likelihood times the prior. Note that $p(x;\theta)=\int p(x|z;\theta)p(z;\theta) \, dz$ is the evidence, which can bear a very high dimensionality (might be intractable). This is *no bueno* and is the source of many headaches, but also some cool algorithms.
+<p> Which just reinforces that the posterior is proportional to the likelihood times the prior. Note that $p(x;\theta)=\int p(x|z;\theta)p(z;\theta) \, dz$ is the evidence, which can bear a very high dimensionality (might be intractable). This is *no bueno* and is the source of many headaches, but also some cool algorithms. </p>
 <br>
 Variational inference seeks to give better approximations when our posterior density is not so tractable. 
 <br>
@@ -27,19 +27,16 @@ Let me make your life worse by presenting a set of local variational parameters 
 One of the central approaches to tackling this optimization problem is through the Kullback-Leibler (KL) divergence. Horribly informalized, it is the measure between our approximating distribution $q(z)$ and the true density $p(z)$. Now, we have the objective function:
 </p>
 
-$\mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_{i};\theta))$ 
-
+$$\mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_{i};\theta))$$
 where $D_{KL}=\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)]$
+<br>
+<p>Which is just the expectation w.r.t. $q$ of the difference between the log densities.
+However, taking the expectations of a forward $D_{KL}$  does not yield a closed form. So we turn to approximations. </p>
 
-Which is just the expectation w.r.t. $q$ of the difference between the log densities.
-However, taking the expectations of a forward $D_{KL}$  does not yield a closed form. So we turn to approximations. 
+<p>The mean field approximation assumes that our variational posterior is fully factorizable</p>
 
-
-The mean field approximation assumes that our variational posterior is fully factorizable
-
-$\displaystyle q(z_{1},\dots,z_{N})=\prod^{N}_{k=1}q(z_{k})$
+$$\displaystyle q(z_{1},\dots,z_{N})=\prod^{N}_{k=1}q(z_{k})$$
 
 by partitioning elements of $z$ into disjoint groupings $z_{k}$.
-</p>
 
 
