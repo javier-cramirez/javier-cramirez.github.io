@@ -39,7 +39,7 @@ Hopefully I'll post some blogs soon...
 <p align='center'><img src='https://www.mscroggs.co.uk/img/full/runge-uniform.gif'></p>
 <br>
     
-<p align='center'>(credit to [Matthew Scroggs](www.mscroggs.co.uk))</p>
+<a align='center' href='www.mscroggs.co.uk'>Credit to Matthew Scroggs.</a>
 
 
 
