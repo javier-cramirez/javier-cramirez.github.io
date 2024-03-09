@@ -28,7 +28,7 @@ Variational inference seeks to give better approximations when our posterior den
 </p>
 
 $$\mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_{i};\theta))$$
-where $D_{KL}=\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)]$
+<p>where $D_{KL}=\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)]$</p>
 <br>
 <p>Which is just the expectation w.r.t. $q$ of the difference between the log densities.
 However, taking the expectations of a forward $D_{KL}$  does not yield a closed form. So we turn to approximations. </p>
