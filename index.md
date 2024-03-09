@@ -13,9 +13,8 @@ MathJax = {
 </script>
 <style> body { font-family: "Roboto Mono", monospace; } </style>
 
-I'm a current first-year at Arizona State University studying math.
-My current interests are stochastic processes and diffusion models. 
-Hopefully I'll post some blogs soon... 
+I'm a first-year at Arizona State University studying math.
+My current interests are diffusion models and what goes on under the hood.
 ![Book logo](IMG_4777.JPG)
 
 <p align="center"><u>Formula of the Month:</u></p>
@@ -38,8 +37,13 @@ Hopefully I'll post some blogs soon...
     
 <p align='center'><img src='https://www.mscroggs.co.uk/img/full/runge-uniform.gif'></p>
 <br>
-    
 <a align='center' href='www.mscroggs.co.uk'>Credit to Matthew Scroggs.</a>
+
+What am I up to?
+- Learning JAX
+- Pondering about Gaussian Processes
+- School :\
+- purooo Feiiiiddddd 
 
 
 
