@@ -35,12 +35,14 @@ $$\displaystyle \mathcal{C}=\sum^{N}_{i=1}D_{KL}(q(z|x_{i};\phi_{i})\ ||\ p(z|x_
 <p>Which is just the expectation w.r.t. $q$ of the difference between the log densities.
 However, taking the expectations of a forward $D_{KL}$  does not yield a closed form. So we turn to approximations. Now, with a little bit of algebra, observe the following: </p>
 
-$$\displaystyle \begin{align} 
-\mathcal{C}=\sum^{N}_{i=1} \mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)] 
+$$\displaystyle 
+\begin{align} 
 \\
-=\sum^{N}_{i=1}\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log\frac{p(x_{i},z;\theta)}{p(x_{i};\theta)}]
+\mathcal{C}=\sum^{N}_{i=1} \mathbb{E}_{q}\left[\log q(z|x_{i};\phi_{i})-\log p(z|x_{i};\theta)\right] 
 \\
-=\sum^{N}_{i=1}\mathbb{E}_{q}[\log q(z|x_{i};\phi_{i})-\log p(x_{i},z;\theta)]+\sum^{N}_{i=1}\mathbb{E}_{q}[\log p(x_{i};\theta)]
+=\sum^{N}_{i=1}\mathbb{E}_{q}\left[\log q(z|x_{i};\phi_{i})-\log\frac{p(x_{i},z;\theta)}{p(x_{i};\theta)}\right]
+\\
+=\sum^{N}_{i=1}\mathbb{E}_{q}\left[\log q(z|x_{i};\phi_{i})-\log p(x_{i},z;\theta)]+\sum^{N}_{i=1}\mathbb{E}_{q}[\log p(x_{i};\theta)\right]
 
 \end{align}$$
 
