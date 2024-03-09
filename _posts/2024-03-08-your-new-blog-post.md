@@ -13,7 +13,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 <style> body { font-family: "Roboto Mono", monospace; } </style>
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdaftpatience.tumblr.com%2Fpost%2F682913036764430337&psig=AOvVaw2c19BeNOXgpyO7vGaHlIoT&ust=1710051294864000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDv9dHD5oQDFQAAAAAdAAAAABAY)
+![Alt Text](https://64.media.tumblr.com/122cb8fcdabd68832c61b62a403bf49c/9eb1947e2ed393cf-ee/s540x810/06c37a959200146a91c2799c5175f6a9956276ae.jpg)
 In Bayesian statistics, we often want to 
 <p>From Bayes' theorem, we set up the problem: </p>
 $$\displaystyle p(z|x;\theta)=\frac{p(x|z;\theta)p(z;\theta)}{p(x;\theta)}$$
