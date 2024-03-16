@@ -1,4 +1,4 @@
-**Tensor.scatter_() for Dummies
+## Tensor.scatter_() for Dummies
 <script>
 MathJax = {
   tex: {
