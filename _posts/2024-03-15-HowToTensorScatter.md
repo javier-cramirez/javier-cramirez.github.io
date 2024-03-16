@@ -15,7 +15,7 @@ MathJax = {
 <style> body { font-family: "Roboto Mono", monospace; } </style>
 
 <p>Utilizes parameters: `dim`, `index`, `src`, `reduce`</p>
-> <p>Perhaps one of my favorite explanations of PyTorch's very confusing function is this: "`Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`".</p>
+> <p>`Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`.</p>
 
 <p>Suppose we have the following code: 
 ```python
