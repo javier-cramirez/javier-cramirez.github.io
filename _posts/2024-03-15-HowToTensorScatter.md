@@ -16,7 +16,7 @@ MathJax = {
 
 <p>This little function Utilizes parameters: `dim`, `index`, `src`, `reduce`.</p>
 <br>
-> <p>`Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`.</p>
+> `Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`.
 
 <p>Suppose we have the following code</p>
 ```python
