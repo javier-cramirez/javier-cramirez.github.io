@@ -17,12 +17,12 @@ MathJax = {
 <p>Utilizes parameters: `dim`, `index`, `src`, `reduce`</p>
 > <p>`Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`.</p>
 
-<p>Suppose we have the following code: 
+<p>Suppose we have the following code</p>
 ```python
   src = torch.arange(1, 11).reshape((2, 5))
-``` Our tensor looks like this: 
+``` 
+<p>Our tensor looks like:</p>
 ```python
 tensor([[ 1,  2,  3,  4,  5],
         [ 6,  7,  8,  9, 10]])
 ```
-</p>
