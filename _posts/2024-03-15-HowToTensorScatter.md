@@ -14,7 +14,8 @@ MathJax = {
 </script>
 <style> body { font-family: "Roboto Mono", monospace; } </style>
 
-<p>Utilizes parameters: `dim`, `index`, `src`, `reduce`</p>
+<p>This little function Utilizes parameters: `dim`, `index`, `src`, `reduce`.</p>
+<br>
 > <p>`Tensor.scatter_()` essentially uses the information from `index` to place `src` into our beloved `Tensor`.</p>
 
 <p>Suppose we have the following code</p>
