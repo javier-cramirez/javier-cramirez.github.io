@@ -11,7 +11,7 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style> body { font-family: "Roboto Mono", monospace; } </style>
+<style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } </style>
 
 I'm a first-year at Arizona State University studying math.
 My current interests are diffusion models and what goes on under the hood.
@@ -40,10 +40,9 @@ My current interests are diffusion models and what goes on under the hood.
 <a align='center' href='www.mscroggs.co.uk'>Credit to Matthew Scroggs.</a>
 
 What am I up to?
-- Learning JAX
-- Pondering about Gaussian Processes
+- Implementing Dual Cross-Attention
+- 👆👆Implementing AnimateDiff paper 👀
 - School :\
-- purooo Feiiiiddddd 
 
 
 
