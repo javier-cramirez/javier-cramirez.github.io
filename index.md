@@ -13,7 +13,7 @@ MathJax = {
 </script>
 <style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } #heading { font-family: "Merriweather", serif; }</style>
 
-<h id='heading' align="center">change is nature.<h/>
+<header id='heading' align="center">change is nature.</header>
 <br>
 I'm a first-year at Arizona State University studying math.
 My current interests are diffusion models and what goes on under the hood. 
