@@ -13,8 +13,11 @@ MathJax = {
 </script>
 <style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } </style>
 
+# Change Is Nature. 
+
 I'm a first-year at Arizona State University studying math.
-My current interests are diffusion models and what goes on under the hood.
+My current interests are diffusion models and what goes on under the hood. 
+
 ![Book logo](IMG_4777.JPG)
 
 <p align="center"><u>Formula of the Month:</u></p>
