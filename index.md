@@ -11,7 +11,7 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } #heading { font-family: "Merriweather", serif; }</style>
+<style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } #heading { font-family: "Merriweather", serif;  font-weight: 300;}</style>
 
 <header id='heading' align="center">change is nature.</header>
 <br>
