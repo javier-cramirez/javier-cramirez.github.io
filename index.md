@@ -19,6 +19,7 @@ I'm a first-year at Arizona State University studying math.
 My current interests are diffusion models and what goes on under the hood. 
 
 ![Book logo](IMG_4777.JPG)
+![Book Logo](IMG_3924.JPG)
 
 <p align="center"><u>Formula of the Month:</u></p>
 <p align="center">
