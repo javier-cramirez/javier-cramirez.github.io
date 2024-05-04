@@ -18,32 +18,9 @@ My current interests are diffusion models and what goes on under the hood.
 
 ![Book logo](IMG_4777.JPG)
 
-<p align="center"><u>Formula of the Month:</u></p>
-<p align="center">
-  The Lagrange basis function 
-  <br>
-  $$\displaystyle L_{i}(x)=\prod^{N}_{j=1,i\neq j}\frac{x-x_{j}}{x_{i}-x_{j}}$$
-  This bad boy follows from the following result:
-  <br>
-  Suppose we have  $f:[a,b]\rightarrow\mathbb{R}$ and $x_{1} < \dots < x_{N} \in [a,b]$. Then, there exists a unique polynomial, $p(x)$, with degree no greater than $n-1$ that interpolates $f$ at points $x_{1},\dots , x_{N}$. This interpolating polynomial can be expressed as:
-  <br>
-  $$\displaystyle p(x)=\sum^{N}_{i=1}f(x_{i})L_{i}(x)$$ 
-  Expanding this formula, we can see that:
-  $$\displaystyle L_{j}(x)=\frac{(x-x_{0})(x-x_{1})\dots (x-x_{N})}{(x_{i}-x_{0})(x_{i}-x_{1})\dots (x_{i}-x_{N})}$$
-  <br>
-  I am referring to the Weierstrass Approximation Theorem, which (very informally) states that every continuous function on a closed interval is *almost* a polynomial. This seemingly harmless theorem has paved the way for many fields involving computational mathematics. Approximation is king, however not every function is approximated equally. 
-    <br>
-    Take, for example, the Runge Phenomenon. This is a classic example where vanilla polynomial interpolation *simply fails*. At small degrees, our approximation is going nice, like a drive up Sedona. Unfortunately, as we increase the degree of our polynomials, the error grows without bound (wild oscillations occur near the endpoints). I leave you with the following illustration: 
-</p>
-    
-<p align='center'><img src='https://www.mscroggs.co.uk/img/full/runge-uniform.gif'></p>
-<br>
-<a align='center' href='www.mscroggs.co.uk'>Credit to Matthew Scroggs.</a>
-
 What am I up to?
-- Implementing Dual Cross-Attention
-- 👆👆Implementing AnimateDiff paper 👀
-- School :\
+- RVQGAN
+- 
 
 
 
