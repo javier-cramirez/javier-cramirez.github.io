@@ -14,7 +14,7 @@ MathJax = {
 <style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } #heading { font-family: "Roboto Mono", sans-serif;  font-weight: 300; font-style: normal; font-size: 35px;}</style>
 
 
-Rising sophomore at Arizona State. Interesting in intelligent systems.
+Rising sophomore at Arizona State. Interested in intelligent systems.
 
 ![Book logo](IMG_4777.JPG)
 
