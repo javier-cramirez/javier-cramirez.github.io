@@ -14,13 +14,9 @@ MathJax = {
 <style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } </style>
 
 
-Rising sophomore at Arizona State. Interested in intelligent systems.
-
+<p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
 ![Book logo](IMG_4777.JPG)
 
-What am I up to?
-- Reading RVQGAN
-- Lloyd's algorithm (blog soon)
 
 
 
