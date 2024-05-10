@@ -13,9 +13,10 @@ MathJax = {
 </script>
 <style> body { font-family: "Roboto Mono", monospace; background-color: #D1BEA8; } </style>
 
-<body>
   <p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
   ![Book logo](IMG_4777.JPG)
+
+<body>
   <h3>curr locked in:</h3>
   <ul>
     <li>learning compiler design</li>
