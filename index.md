@@ -16,6 +16,7 @@ MathJax = {
 
 <p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
 ![Book logo](IMG_4777.JPG)
+<body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
     <script>
         const canvas = document.getElementById('waveCanvas');
@@ -77,6 +78,7 @@ MathJax = {
         draw();
         requestAnimationFrame(updateWave);
     </script>
+    </body>
 
   <h3>curr locked in:</h3>
   <ul>
