@@ -12,7 +12,16 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 <style> 
-  body { font-family: "Roboto Mono", monospace; } 
+  body, html { 
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  } 
   #waveCanvas {
     position: absolute;
     top: 0;
