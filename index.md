@@ -39,8 +39,6 @@ MathJax = {
 </style>
 
 
-<p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
-![Book logo](IMG_4777.JPG)
 <body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
   <div class='content'>
