@@ -16,9 +16,6 @@ MathJax = {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
   } 
