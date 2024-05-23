@@ -47,7 +47,7 @@ MathJax = {
         const dx = L / Nx;
         const c = 1;
         const dt = 0.5 * dx / c;
-        const Nt = 2000;
+        const Nt = 10000;
         let t = 0;
         const x = Array.from({ length: Nx }, (_, i) => i * dx);
         let u = new Array(Nx).fill(0);
@@ -70,7 +70,7 @@ MathJax = {
         }
         // Time points where additional plucking occurs
         const pluckingTimes = [50, 150, 250, 350, 450];
-        const pluckingIntensity = 2.0; // Multiplier for plucking intensity
+        const pluckingIntensity = 2.4; // Multiplier for plucking intensity
         function draw() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.beginPath();
