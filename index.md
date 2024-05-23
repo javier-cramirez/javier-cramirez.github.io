@@ -16,8 +16,6 @@ MathJax = {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    align-items: center;
   } 
   #waveCanvas {
     position: absolute;
