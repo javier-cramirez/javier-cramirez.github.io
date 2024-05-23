@@ -11,13 +11,32 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style> body { font-family: "Roboto Mono", monospace; } </style>
+<style> 
+  body { font-family: "Roboto Mono", monospace; } 
+  #waveCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+  }
+</style>
 
 
 <p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
 ![Book logo](IMG_4777.JPG)
 <body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
+  <div class='content'>
+    <p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
+  </div>
     <script>
         const canvas = document.getElementById('waveCanvas');
         const ctx = canvas.getContext('2d');
@@ -80,14 +99,7 @@ MathJax = {
     </script>
     </body>
 
-  <h3>curr locked in:</h3>
-  <ul>
-    <li>learning compiler design</li>
-    <li>playing w/ CUDA</li>
-    <li>audio gen (RVQVAE, codebooks, discriminators)</li>
-    <li>battling w/ topology</li>
-  </ul>
-
+  
 
 
 
