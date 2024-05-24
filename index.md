@@ -72,7 +72,7 @@ MathJax = {
         const pluckingTimes = [];
         const start = 50;
         const step = 100;
-        for (let i = start; i <= Nt; i++) {
+        for (let i = start; i <= Nt; i+=step) {
           pluckingTimes.push(i);  
         }
         const pluckingIntensity = 1.1; // Multiplier for plucking intensity
