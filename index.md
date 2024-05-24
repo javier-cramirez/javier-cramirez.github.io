@@ -69,12 +69,7 @@ MathJax = {
             u_old[i] = u[i];
         }
         // Time points where additional plucking occurs
-        const pluckingTimes = [];
-        const start = 50;
-        const step = 100;
-        for (let i = start; i <= Nt; i+=step) {
-          pluckingTimes.push(i);  
-        }
+        const pluckingTimes = [50, 150, 300, 600, 900, 1000, 2000, 2430, 2700, 7000];
         const pluckingIntensity = 1.1; // Multiplier for plucking intensity
         function draw() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
