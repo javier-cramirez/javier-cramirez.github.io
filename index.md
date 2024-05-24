@@ -28,7 +28,7 @@ MathJax = {
   .content {
     position: relative;
     z-index: 1;
-    color: white;
+    color: black;
     text-align: center;
   }
 </style>
