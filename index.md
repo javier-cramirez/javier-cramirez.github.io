@@ -75,7 +75,7 @@ MathJax = {
         for (let i = start; i <= Nt; i++) {
           pluckingTimes.push(i);  
         }
-        const pluckingIntensity = 2.4; // Multiplier for plucking intensity
+        const pluckingIntensity = 1.1; // Multiplier for plucking intensity
         function draw() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.beginPath();
