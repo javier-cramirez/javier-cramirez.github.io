@@ -29,7 +29,6 @@ MathJax = {
     position: relative;
     z-index: 1;
     color: black;
-    text-align: center;
   }
 </style>
 
