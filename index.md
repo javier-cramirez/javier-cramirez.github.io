@@ -39,8 +39,15 @@ MathJax = {
     background-size: cover;
     background-position: center;
   } 
-  .white-text {
-    color: white;
+  .visible {
+    opacity: 1.0;
+  }
+  .invisible {
+    opacity: 0.0;
+  }
+  .pacman-time {
+    color: yellow; 
+    opacity: 0.0;
   }
 </style>
 
@@ -48,7 +55,7 @@ MathJax = {
 <body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
   <div class='content'>
-    <p>Current sophomore at Arizona State University. Interested in intelligent systems.</p>
+    <p class = "normal-time">Current sophomore at Arizona State University. Interested in intelligent systems.</p>
     <p class = "pacman-time">Sometimes games as well.</p>
   </div>
     <script>
@@ -111,15 +118,17 @@ MathJax = {
         draw();
         requestAnimationFrame(updateWave);
         const pacmanText = document.querySelectorAll(".pacman-time");
-        const content = document.querySelector('.content');
+        const content = document.querySelectorAll('normal-time');
         pacmanText.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 canvas.classList.add('pacman-background');
-                content.classList.add('white-text');
+                pacmanText.classList.add('visible');
+                content.classList.add('invisible');
             });
             link.addEventListener('mouseleave', () => {
                 canvas.classList.remove('pacman-background');
-                content.classList.add('white-text');
+                pacmanText.classList.remove('visible');
+                content.classList.remove('invisible');
             });
         });
         
