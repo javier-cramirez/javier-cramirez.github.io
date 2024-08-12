@@ -39,6 +39,9 @@ MathJax = {
     background-size: cover;
     background-position: center;
   } 
+  .white-text {
+    color: white;
+  }
 </style>
 
 
@@ -108,12 +111,15 @@ MathJax = {
         draw();
         requestAnimationFrame(updateWave);
         const pacmanText = document.querySelectorAll(".pacman-time");
+        const content = document.querySelectorAll('.content');
         pacmanText.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 canvas.classList.add('pacman-background');
+                content.classList.add('white-text');
             });
             link.addEventListener('mouseleave', () => {
                 canvas.classList.remove('pacman-background');
+                content.classList.add('white-test');
             });
         });
         
