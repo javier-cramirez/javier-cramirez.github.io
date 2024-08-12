@@ -36,7 +36,8 @@ MathJax = {
 <body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
   <div class='content'>
-    <p>Rising sophomore at Arizona State. Interested in intelligent systems.</p>
+    <p>Current sophomore at Arizona State University. Interested in intelligent systems.</p>
+    <p></p>
   </div>
     <script>
         const canvas = document.getElementById('waveCanvas');
