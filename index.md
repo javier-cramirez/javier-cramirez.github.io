@@ -30,6 +30,15 @@ MathJax = {
     z-index: 1;
     color: black;
   }
+  .pacman-time {
+    text-decoration: none;
+    color: black;
+  }
+  .pacman-background {
+    background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/19992985/pac_man_gamegan_320.gif");
+    background-size: cover;
+    background-position: center;
+  } 
 </style>
 
 
@@ -37,7 +46,7 @@ MathJax = {
  <canvas id="waveCanvas" width="800" height="400"></canvas>
   <div class='content'>
     <p>Current sophomore at Arizona State University. Interested in intelligent systems.</p>
-    <p></p>
+    <p class = "pacman-time">Sometimes games as well.</p>
   </div>
     <script>
         const canvas = document.getElementById('waveCanvas');
@@ -98,6 +107,16 @@ MathJax = {
         }
         draw();
         requestAnimationFrame(updateWave);
+        const pacmanText = document.querySelectorAll("pacman-time");
+        blogLinks.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                canvas.classList.add('pacman-background');
+            });
+            link.addEventListener('mouseleave', () => {
+                canvas.classList.remove('pacman-background');
+            });
+        });
+        
     </script>
     </body>
 
