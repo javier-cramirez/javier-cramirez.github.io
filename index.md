@@ -111,7 +111,7 @@ MathJax = {
         draw();
         requestAnimationFrame(updateWave);
         const pacmanText = document.querySelectorAll(".pacman-time");
-        const content = document.querySelectorAll('.content');
+        const content = document.querySelector('.content');
         pacmanText.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 canvas.classList.add('pacman-background');
@@ -119,7 +119,7 @@ MathJax = {
             });
             link.addEventListener('mouseleave', () => {
                 canvas.classList.remove('pacman-background');
-                content.classList.add('white-test');
+                content.classList.add('white-text');
             });
         });
         
