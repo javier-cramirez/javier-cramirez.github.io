@@ -29,10 +29,7 @@ MathJax = {
     position: relative;
     z-index: 1;
     color: black;
-  }
-  .pacman-time {
-    text-decoration: none;
-    color: black;
+    opacity: 1.0;
   }
   .pacman-background {
     background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/19992985/pac_man_gamegan_320.gif");
@@ -46,6 +43,7 @@ MathJax = {
     opacity: 0.0;
   }
   .pacman-time {
+    text-decoration: none;
     color: yellow; 
     opacity: 0.0;
   }
