@@ -119,7 +119,7 @@ MathJax = {
         requestAnimationFrame(updateWave);
         const pacmanText = document.querySelectorAll(".pacman-time");
         const content = document.querySelectorAll('normal-time');
-        pacmanText.forEach(link => {
+        content.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 canvas.classList.add('pacman-background');
                 pacmanText.classList.add('visible');
