@@ -53,7 +53,7 @@ MathJax = {
 <body>
  <canvas id="waveCanvas" width="800" height="400"></canvas>
   <div class='content'>
-    <p class = "normal-time">Current sophomore at Arizona State University. Interested in intelligent systems.</p>
+    <p class = "normal-time">Current sophomore at Arizona State University. Pondering about reinforcement learning and accelerating robust intelligent systems.</p>
     <p class = "pacman-time">Sometimes games as well.</p>
   </div>
     <script>
