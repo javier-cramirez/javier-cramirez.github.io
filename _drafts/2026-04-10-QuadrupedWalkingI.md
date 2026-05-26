@@ -12,8 +12,6 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style> body { font-family: "Roboto Mono", monospace; } </style>
-
 <p align='center'><img src='https://explorewithalec.com/wp-content/uploads/2025/06/mount-dickerman-hike-861A1108-scaled.jpg'></p>
 
 >Ever wondered how the Leaper from *Arc Raiders* was trained? Everytime I encounter the four-legged gargantuan, I start to wonder how *Embark Studios*

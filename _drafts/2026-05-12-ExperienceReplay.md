@@ -12,8 +12,6 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style> body { font-family: "Roboto Mono", monospace; } </style>
-
 <p align='center'><img src='https://cdn2.hubspot.net/hubfs/4638968/blog/johnfootefaculty-1.png'></p>
 
 <p align='center'><i>All those moments will be lost in time, like tears in rain.</i></p>
