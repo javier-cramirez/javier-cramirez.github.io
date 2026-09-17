@@ -13,11 +13,11 @@ title: About
     <p> 
         I enjoy reading about <b>reinforcement learning</b> and <b>probability</b>, along   
         with some occasional <b>hardware</b> tinkering.
-        Even if my posts help/inspire one person, then that is enough for me!
+        Recently, I've become interested in generalist RL agents for multiplayer games. 
     </p>
     <p>
         In my freetime, I space out with music and frequently larp being a 
-        music producer (FL Studio Warrior). Currently, I frequent  house, kpop, urban latino, classical, and jazz. I also enjoy playing Counter Strike 2 and Valorant (do not make fun of me please, it's fun).
+        music producer (FL Studio Warrior). Currently, I frequent  house, kpop, urban latino, classical, and jazz.
     </p>
     <p>
         Lastly, my core belief in this life is that our learning experiences are 
